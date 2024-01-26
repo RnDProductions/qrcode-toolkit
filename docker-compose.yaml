@@ -1,0 +1,5 @@
+services:
+  qrcode_toolkit:
+    build: .
+    ports:
+      - "3000:3000"
